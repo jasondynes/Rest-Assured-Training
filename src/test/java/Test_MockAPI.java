@@ -121,13 +121,12 @@ public class Test_MockAPI {
     public void tearDown()
     {
         // quick and dirty cleanup as leaves 2 items (Ids 4 & 5)
-        for (int i = 4; i<6; i++){
+        for (int i = 4; i<8; i++){
             baseURI = "http://localhost:3000/users/";
             String fullURI = baseURI + i + "/";
             when()
                     .delete(fullURI)
                     .then().statusCode(200);
         }
-
     }
 }
