@@ -120,7 +120,14 @@ public class Test_MockAPI {
     @AfterTest
     public void tearDown()
     {
-        //--Close driver--//
+        // quick and dirty cleanup as leaves 2 items (Ids 4 & 5)
+        for (int i = 4; i<6; i++){
+            baseURI = "http://localhost:3000/users/";
+            String fullURI = baseURI + i + "/";
+            when()
+                    .delete(fullURI)
+                    .then().statusCode(200);
+        }
 
     }
 }

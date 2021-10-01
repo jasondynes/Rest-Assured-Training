@@ -44,7 +44,8 @@ public class Test_Posts {
                 .when()
                 .post("https://reqres.in/api/users")
                 .then()
-                .statusCode(201);
+                .statusCode(201)
+                .log().all();
     }
 
 }

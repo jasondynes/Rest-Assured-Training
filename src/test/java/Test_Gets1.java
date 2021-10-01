@@ -31,6 +31,7 @@ public class Test_Gets1 {
                 given()
                         .get("http://swapi.dev/api/people/1/")
                         .then().statusCode(200)
-                        .body("name",equalTo("Luke Skywalker"));
+                        .body("name",equalTo("Luke Skywalker"))
+                        .log().all();
     }
 }
