@@ -4,7 +4,7 @@ import org.testng.annotations.*;
 
 import static io.restassured.RestAssured.*;
 
-public class Test_MockAPI_DataDriven {
+public class Test_MockAPI_DataDriven1 {
 
     @DataProvider
     public Object[][] DataForPost(){

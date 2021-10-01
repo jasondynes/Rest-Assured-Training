@@ -117,7 +117,7 @@ public class Test_MockAPI {
     }
 
 
-    @AfterTest
+ /*   @AfterTest
     public void tearDown()
     {
         // quick and dirty cleanup as leaves 2 items (Ids 4 & 5)
@@ -128,5 +128,5 @@ public class Test_MockAPI {
                     .delete(fullURI)
                     .then().statusCode(200);
         }
-    }
+    }*/
 }
