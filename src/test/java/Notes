@@ -10,6 +10,7 @@ https://mvnrepository.com/
 https://github.com/rest-assured/rest-assured/wiki/Usage#examples
 https://swapi.dev/documentation#root
 https://reqres.in/
+http://makeseleniumeasy.com/2020/06/02/rest-assured-tutorial-28-what-is-plain-old-java-object-pojo/
 
 Mock API - https://github.com/typicode/json-server
 https://github.com/typicode/json-server#getting-started
@@ -46,4 +47,6 @@ Examples:
   json-server http://example.com/db.json
 
 https://github.com/typicode/json-server
+
+
 
